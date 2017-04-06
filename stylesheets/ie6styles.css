@@ -1,0 +1,4 @@
+/* the xml prologue is used to trigger quirks mode after which this hack can be used to simulate position: fixed */
+.fixed { position: absolute; left:expression(eval(document.body.scrollLeft) + "px");}
+/* this prevents fixed elements from flickering when scrolling */
+body { background-image: url(/images/site/blank.gif); background-attachment: fixed;}
