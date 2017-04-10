@@ -1,6 +1,6 @@
 body { color: #fff; background-color: #070707; padding-left: 185px; font-family: Arial, Helvetica, sans-serif; font-size: 100%; line-height: 1;}
 
-.fixed, #photos, #text { position: absolute; top: 130px; }
+.fixed, #photos, #text { position: absolute; top: 100px; }
 .fixed { position: fixed;left: 0; z-index: 10; width: 100%;}
 #header { background-color:#070707; position: absolute; top: 0; left: 0; width: 160px; height: 540px; padding: 0 10px 0 15px;}
 #photos { width: 33764px;}
@@ -16,7 +16,7 @@ h1 { /*width: 160px; padding-top: 10px;*/ }
 .fixed .logo h1 img {
 	width:100%;
 	height:auto;
-	max-width:330px;
+	max-width:264px;
 }
 
 ul { border-top: 1px solid #FFFFFF; padding-top:5px; }
@@ -31,9 +31,9 @@ p a:hover { border-bottom: 2px solid #aaa; padding-bottom: 1px;}
 a:link, a:visited { text-decoration: none;}
 
 .logo {
-	margin-top: -100px;
+	margin-top: -79px;
 	width:100%;
-	max-width:330px;
+	max-width:264px;
 	margin-left: auto;
 	margin-right: auto;
 }
