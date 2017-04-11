@@ -4,7 +4,7 @@ body { color: #fff; background-color: #070707; padding-left: 185px; font-family:
 .fixed { position: fixed;left: 0; z-index: 10; width: 100%;}
 #header { background-color:#070707; position: absolute; top: 0; left: 0; width: 160px; height: 540px; padding: 0 10px 0 15px;}
 #photos { width: 33764px;}
-#text { width: 330px; padding-top: 7px;}
+#text { width: 330px; padding-top: 8px;}
 #photos div { display: inline;}
 #photos img { display: inline; margin-right: -1px;}
 
@@ -36,4 +36,8 @@ a:link, a:visited { text-decoration: none;}
 	max-width:264px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+body.contact #text p {
+	margin-bottom:0.285em;
 }
